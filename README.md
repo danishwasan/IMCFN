@@ -39,3 +39,18 @@ Conclusion
 
 This project demonstrates the potential of using CNNs to classify malware by analyzing visual representations. By comparing multiple architectures, color channels, and augmentation techniques, it provides insights into the best practices for implementing CNN-based malware classifiers in cybersecurity applications.
 
+Cite This Work:
+
+@article{Vasan2020IMCFN,
+  title     = {IMCFN: Image-based malware classification using fine-tuned convolutional neural network architecture},
+  author    = {Danish Vasan and Mamoun Alazab and Sobia Wassan and Hamad Naeem and Babak Safaei and Qin Zheng},
+  journal   = {Computer Networks},
+  volume    = {171},
+  pages     = {107138},
+  year      = {2020},
+  issn      = {1389-1286},
+  doi       = {10.1016/j.comnet.2020.107138},
+  url       = {https://www.sciencedirect.com/science/article/pii/S1389128619304736},
+  abstract  = {The volume, type, and sophistication of malware is increasing. Deep convolutional neural networks (CNNs) have lately proven their effectiveness in malware binary detection through image classification. In this paper, we propose a novel classifier to detect variants of malware families and improve malware detection using CNN-based deep learning architecture, called IMCFN (Image-based Malware Classification using Fine-tuned Convolutional Neural Network Architecture). Differing from existing solutions, we propose a new method for multiclass classification problems. Our proposed method converts the raw malware binaries into color images that are used by the fine-tuned CNN architecture to detect and identify malware families. Our method previously trained with the ImageNet dataset (≥10 million) and utilized the data augmentation to handle the imbalance dataset during the fine-tuning process. For evaluations, an extensive experiment was conducted using 2 datasets: Malimg malware dataset (9,435 samples), and IoT- android mobile dataset (14,733 malware and 2,486 benign samples). Empirical evidence has shown that the IMCFN stands out among the deep learning models including other CNN models with an accuracy of 98.82% in Malimg malware dataset and more than 97.35% for IoT-android mobile dataset. Furthermore, it demonstrates that colored malware dataset performed better in terms of accuracy than grayscale malware images. We compared the performance of IMCFN with the three architectures VGG16, ResNet50 and Google's InceptionV3. We found that our method can effectively detect hidden code, obfuscated malware and malware family variants with little run-time. Our method is resilient to straight forward obfuscation technique commonly used by hackers to disguise malware such as encryption and packing.},
+  keywords  = {Cybersecurity; Malware; Image-based malware detection; Convolutional neural network; Transfer learned; Fine-tuned; Deep Learning; Obfuscation; IoT-Android Mobile}
+}
